@@ -14,10 +14,15 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Text("i love you")
+                .multilineTextAlignment(.center)
+                .font(.system(size:60))
+                .foregroundColor(.pink)
+                .padding()
         }
-        .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
