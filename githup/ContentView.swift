@@ -14,9 +14,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
-            Text("i love you")
+            Text("i love me")
                 .multilineTextAlignment(.center)
-                .font(.system(size:60))
+                .font(.system(size:50))
                 .foregroundColor(.pink)
                 .padding()
         }
